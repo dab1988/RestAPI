@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="GetResponseBodyTest">
+  <classes>
+  
+  <class name="ReqResAPIAutomation.firstDataTest" />
+  
+  </classes>
+   
+  </test> <!-- Test -->
+  
+   <test name="GetResponseHeaderTest">
+  <classes>
+  
+  <class name="ReqResAPIAutomation.validataeHeaders" />
+  
+  </classes>
+  
+  </test> <!-- Test -->
+  
+     <test name="GetResponseHeaderTest">
+  <classes>
+  
+  <class name="SerialiazablePOJO.serialiazablePostTest" />
+  
+  </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
